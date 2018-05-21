@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import states from './us-states.json';
+import React from 'react';
+import reduxComponent from '../reduxComponent';
+import states from '../data/us-states.json';
 
-class Usmap extends Component {
+class Usmap extends reduxComponent {
   stateClicked(state){
     console.log(state);
   }
